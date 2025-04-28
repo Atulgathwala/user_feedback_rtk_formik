@@ -4,3 +4,52 @@
     box-sizing: border-box;
 }
 
+.error{
+    color: red;
+    font-weight: 500;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#App{
+    width:400px;
+    border: solid;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    label{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    input{
+        padding:  7px 10px;
+        border-radius: 7px;    }
+
+        textarea{
+         padding: 20px 10px;
+         border-radius: 10px;
+        }
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.submitButton{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
